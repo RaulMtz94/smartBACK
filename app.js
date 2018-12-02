@@ -38,7 +38,7 @@ var sorteoxUsuarioRoutes = require('./routes/sorteoxusuario');
 //FIN NUEVO
 
 // Conexión a la base de datos
-mongoose.connection.openUri('mongodb://localhost:27017/hospitalDB', (err, res) => {
+mongoose.connection.openUri('mongodb://raul:raulmtz1@ds123454.mlab.com:23454/smartbet', (err, res) => {
 
     if (err) throw err;
 
